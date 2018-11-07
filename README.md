@@ -25,7 +25,8 @@ Linux and installed PHP interpreter.
    define('DOWNLOADS_DIR_NAME', 'Downloads')
    define('ARCHIVE_DIR_NAME', 'archive');
    ```
-   with above setting, script will search files in /home/paul/Downloads/, and move files to /home/paul/Downloads/archive/{Y-m-d}/
+   with above settings, script will search files in /home/paul/Downloads/, and move files to 
+   /home/paul/Downloads/archive/{Y-m-d}/
 2. Move file:
    
    ```bash
