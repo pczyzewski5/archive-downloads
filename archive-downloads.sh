@@ -2,9 +2,10 @@
 <?php
 
 define('USERNAME', 'usrName');
-define('ARCHIVE_DIR_NAME', 'downloadsDirName');
+define('DOWNLOADS_DIR_NAME', 'downloadsDirName')
+define('ARCHIVE_DIR_NAME', 'archiveDirName');
 
-$path = '/home/' . USERNAME . '/Pobrane';
+$path = '/home/' . USERNAME . '/' . DOWNLOADS_DIR_NAME;
 $isDirChanged = chdir($path);
 
 if ($isDirChanged === false) {
