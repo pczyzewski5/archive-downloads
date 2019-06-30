@@ -1,8 +1,8 @@
 #! /usr/bin/php
 <?php
 
-define('USERNAME', 'usrName');
-define('DOWNLOADS_DIR_NAME', 'downloadsDirName')
+define('USERNAME', 'userName');
+define('DOWNLOADS_DIR_NAME', 'downloadsDirName');
 define('ARCHIVE_DIR_NAME', 'archiveDirName');
 
 $path = '/home/' . USERNAME . '/' . DOWNLOADS_DIR_NAME;
