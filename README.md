@@ -41,7 +41,7 @@ Linux and installed PHP interpreter.
    ```bash
    $ /usr/bin/archive-downloads.sh
    ```
-4. Add script to crontab:
+5. Add script to crontab:
 
    ```bash
    $ sudo crontab -e
@@ -50,4 +50,4 @@ Linux and installed PHP interpreter.
    ```text
    @reboot /usr/bin/archive-downloads.sh
    ```
-5. All done, on every restart your downloads will be archived!
+6. All done, on every restart your downloads will be archived!
